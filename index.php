@@ -97,7 +97,7 @@
 			 */
 
 			$html = "";
-			$url  = "http://www.rssmix.com/u/8225180/rss.xml";
+			$url  = "http://www.rssmix.com/u/8225181/rss.xml";
 			$xml  = simplexml_load_file($url);
 			for ($i = 0; $i < 100; $i++) {
 				$title   = $xml->channel->item[$i]->title;
