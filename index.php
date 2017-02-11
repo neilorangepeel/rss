@@ -23,6 +23,7 @@
 			margin: 7vw 0;
 			font-family: Brandon Text, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 			color: #191919;
+			background: green;
 		}
 		.wrapper {
 			width: 90%;
