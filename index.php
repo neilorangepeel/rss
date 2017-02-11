@@ -1,6 +1,6 @@
 <?php
 /**
- * My Curated RSS feed
+ * index.php
  */
 ?>
 
@@ -80,7 +80,7 @@
 
 		<?php
 		    /**
-			 * Sites i'm following that a mixed via http://www.rssmix.com/
+			 * Sites i'm following that are mixed together via http://www.rssmix.com/
 			 *
 			 * http://chriscoyier.net/feed
 			 * https://ma.tt/feed
