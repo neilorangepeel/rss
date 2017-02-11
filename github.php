@@ -4,4 +4,7 @@
  *
  * @see https://code.tutsplus.com/tutorials/the-perfect-workflow-with-git-github-and-ssh--net-19564 by Jeffery Way
  */
+
+`git pull`;
+
 ?>
