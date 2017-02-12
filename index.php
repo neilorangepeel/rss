@@ -94,10 +94,11 @@
 			 * http://www.heydonworks.com/feed
 			 * https://sarasoueidan.com/rss.xml
 			 * http://lea.verou.me/feed
+			 * https://design.blog/feed
 			 */
 
 			$html = "";
-			$url  = "http://www.rssmix.com/u/8225181/rss.xml";
+			$url  = "http://www.rssmix.com/u/8225244/rss.xml";
 			$xml  = simplexml_load_file($url);
 			for ($i = 0; $i < 100; $i++) {
 				$title   = $xml->channel->item[$i]->title;
