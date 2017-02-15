@@ -101,7 +101,7 @@
 			$html = "";
 			$url  = "http://www.rssmix.com/u/8225530/rss.xml";
 			$xml  = simplexml_load_file($url);
-			for ($i = 0; $i < 100; $i++) {
+			for ($i = 0; $i < 30; $i++) {
 				$title   = $xml->channel->item[$i]->title;
 				$link    = $xml->channel->item[$i]->link;
 				$pubDate = $xml->channel->item[$i]->pubDate;
