@@ -106,7 +106,9 @@
 				$title   = $xml->channel->item[$i]->title;
 				$link    = $xml->channel->item[$i]->link;
 				$pubDate = $xml->channel->item[$i]->pubDate;
-				$author  = $xml->channel->item[$i]->author;
+				$dc 	 = $xml->channel->item[$i]->children('http://purl.org/dc/elements/1.1/');
+				$creator = $dc->creator;
+
 				$website = $xml->channel->item[$i]->guid;
 
 				// strip url to make pretty url
@@ -118,7 +120,7 @@
 				$html .= "<div class='entry'>";
 					$html .= "<time class='entry-date'>".date('j M Y', $timeStamp)."</time>";
 					$html .= "<h2 class='entry-title'><a href='$link'>$title</a></h2>";
-					$html .= "<p class='entry-author'>By $author on <a href='$website'>$domain</a></p>";
+					$html .= "<p class='entry-author'>By $creator on <a href='$website'>$domain</a></p>";
 				$html .= "</div>";
 
 			}
