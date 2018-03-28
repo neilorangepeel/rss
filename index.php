@@ -97,10 +97,11 @@
 			 * https://design.blog/feed
 			 * http://siobhanmckeown.com/feed
 			 * http://gutenberg.news/feed
+			 * https://inclusive-components.design/rss/
 			 */
 
 			$html = "";
-			$url  = "http://www.rssmix.com/u/8276615/rss.xml";
+			$url  = "http://www.rssmix.com/u/8279052/rss.xml";
 			$xml  = simplexml_load_file($url);
 			for ($i = 0; $i < 30; $i++) {
 				$title   = $xml->channel->item[$i]->title;
