@@ -120,8 +120,8 @@
 
 				$html .= "<div class='entry'>";
 					$html .= "<time class='entry-date'>".date('j M Y', $timeStamp)."</time>";
-					$html .= "<h2 class='entry-title'><a href='$link'>$title</a></h2>";
-					$html .= "<p class='entry-author'>By $creator on <a href='$website'>$domain</a></p>";
+					//$html .= "<h2 class='entry-title'><a href='$link'>$title</a></h2>";
+					//$html .= "<p class='entry-author'>By $creator on <a href='$website'>$domain</a></p>";
 				$html .= "</div>";
 
 			}
